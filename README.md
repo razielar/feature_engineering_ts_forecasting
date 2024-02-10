@@ -2,3 +2,10 @@
 
 Repo from the course is placed [here](https://github.com/trainindata/feature-engineering-for-time-series-forecasting).
 
+## 1) Tabularizing Time Series 
+
+### Feature engineering
+
+<div align="center">
+<img src="https://github.com/razielar/feature_engineering_ts_forecasting/blob/main/img/feature_engineering.png" alt="logo"></img>
+</div>
