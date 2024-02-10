@@ -9,3 +9,9 @@ Repo from the course is placed [here](https://github.com/trainindata/feature-eng
 <div align="center">
 <img src="https://github.com/razielar/feature_engineering_ts_forecasting/blob/main/img/feature_engineering.png" alt="logo"></img>
 </div>
+
+### Tabularizing Time Series
+
+<div align="center">
+<img src="https://github.com/razielar/feature_engineering_ts_forecasting/blob/main/img/tab_ts_data.png" alt="logo"></img>
+</div>
