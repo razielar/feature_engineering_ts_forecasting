@@ -24,6 +24,8 @@ Repo from the course is placed [here](https://github.com/trainindata/feature-eng
 
 ### ML workflow
 
-
+<div align="center">
+<img src="https://github.com/razielar/feature_engineering_ts_forecasting/blob/main/img/ml_workflow.png" alt="logo"></img>
+</div>
 
 ## 3) <a id='three'></a> Time series Decomposition
