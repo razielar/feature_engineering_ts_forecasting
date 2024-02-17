@@ -29,3 +29,11 @@ Repo from the course is placed [here](https://github.com/trainindata/feature-eng
 </div>
 
 ## 3) <a id='three'></a> Time series Decomposition
+
+### MSTL Frequency
+
+| Data | Day | Week | Year |
+|----------|----------|----------|----------|
+| Daily  |  | 7 | 365.25 |
+| Hourly | 24 | 168 (24*7) | 8766 |
+
