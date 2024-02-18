@@ -6,6 +6,7 @@ Repo from the course is placed [here](https://github.com/trainindata/feature-eng
 2. [Multi-step Forecasting](#two)
 3. [Time series Decomposition](#three)
 4. [Missing Data Imputation](#four)
+5. [Outliers](#five)
 
 ## 1) <a id='one'></a> Tabularizing Time Series 
 
@@ -40,3 +41,4 @@ Repo from the course is placed [here](https://github.com/trainindata/feature-eng
 
 ## 4) <a id='four'></a> Missing Data Imputation
 
+## 5) <a id='five'></a> Outliers
