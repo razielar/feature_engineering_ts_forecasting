@@ -41,6 +41,12 @@ Repo from the course is placed [here](https://github.com/trainindata/feature-eng
 
 ## 4) <a id='four'></a> Missing Data Imputation
 
+* **1)** Forward filling (last observation carried forward): better than backwards filling.
+* **2)** Backward filling (next observation carried backward): avoid to use it could introduce `data leakage`.
+* **3)** Linear interpolation: better than spline interpolation is simpler.
+* **4)** Spline interpolation: could dramatically disrupt the time series without EDA.
+* **5)** `Seasonal decomposition and linear interpolation`
+
 ## 5) <a id='five'></a> Outliers
 
 ### Outliers in time series data
