@@ -42,15 +42,14 @@ Repo from the course is placed [here](https://github.com/trainindata/feature-eng
 ## 4) <a id='four'></a> Missing Data Imputation
 
 * **1)** Forward filling (last observation carried forward): better than backwards filling.
-* **2)** Backward filling (next observation carried backward): avoid to use it could introduce `data leakage`.
-* **3)** Linear interpolation: better than spline interpolation, because is simpler.
-* **4)** Spline interpolation: could dramatically disrupt the time series without EDA.
-* **5)** `Seasonal decomposition and linear interpolation`
-    * **5.1)** Linear interpolation.
-    * **5.2)** Use `STL` or `MSTL` to obtain seasonality. **NOTE**: STL & MSTL assume an `additive` model remember to transform the data.
-    * **5.3)** De-seasonalise the original time series.
-    * **5.4)** Linear interpolation on the de-seasonalised data.
-    * **5.5)** Add the seasonal component back to the imputed de-seasonalised data.
+* **2)** Linear interpolation: better than spline interpolation, because is simpler.
+* **3)** Spline interpolation: could dramatically disrupt the time series without EDA.
+* **4)** `Seasonal decomposition and linear interpolation`
+    * **4.1)** Linear interpolation.
+    * **4.2)** Use `STL` or `MSTL` to obtain seasonality. **NOTE**: STL & MSTL assume an `additive` model remember to transform the data.
+    * **4.3)** De-seasonalise the original time series.
+    * **4.4)** Linear interpolation on the de-seasonalised data.
+    * **4.5)** Add the seasonal component back to the imputed de-seasonalised data.
 
 ## 5) <a id='five'></a> Outliers
 
