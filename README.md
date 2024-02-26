@@ -53,8 +53,8 @@ The outlier classification in time series data comes from [Blazquez-Garcia *et a
 
 ### Estimation methods to identify outliers
 
-* **1)** Rolling mean
-* **2)** Rolling median
+* **1)** Rolling mean (mean & std)
+* **2)** Rolling median (median & MAD: Median Absolute Deviation)
 * **3)** LOWESS residuals
 * **4)** STL residuals
 
