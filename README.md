@@ -46,7 +46,7 @@ Repo from the course is placed [here](https://github.com/trainindata/feature-eng
 * **3)** Spline interpolation: could dramatically disrupt the time series without EDA.
 * **4)** `Seasonal decomposition and linear interpolation`
     * **4.1)** Linear interpolation.
-    * **4.2)** Use `STL` or `MSTL` to obtain seasonality. **NOTE**: STL & MSTL assume an `additive` model remember to transform the data.
+    * **4.2)** Use `STL` or `MSTL` to obtain seasonality. **NOTE**: STL & MSTL assume an `additive model` remember to transform the data.
     * **4.3)** De-seasonalise the original time series.
     * **4.4)** Linear interpolation on the de-seasonalised data.
     * **4.5)** Add the seasonal component back to the imputed de-seasonalised data.
