@@ -32,7 +32,13 @@ Repo from the course is placed [here](https://github.com/trainindata/feature-eng
 
 ## 3) <a id='three'></a> Time series Decomposition
 
-### MSTL Frequency
+### MSTL Model
+
+<div align="center">
+<img src="https://github.com/razielar/feature_engineering_ts_forecasting/blob/main/img/mstl_model.png" alt="logo"></img>
+</div>
+
+**MSTL Frequency**
 
 | Data | Day | Week | Year |
 |----------|----------|----------|----------|
