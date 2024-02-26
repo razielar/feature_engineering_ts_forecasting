@@ -50,3 +50,11 @@ The outlier classification in time series data comes from [Blazquez-Garcia *et a
 <div align="center">
 <img src="https://github.com/razielar/feature_engineering_ts_forecasting/blob/main/img/outlier_clf.png" alt="logo"></img>
 </div>
+
+### Estimation methods to identify outliers
+
+* **1)** Rolling mean
+* **2)** Rolling median
+* **3)** LOWESS residuals
+* **4)** STL residuals
+
