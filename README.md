@@ -42,3 +42,11 @@ Repo from the course is placed [here](https://github.com/trainindata/feature-eng
 ## 4) <a id='four'></a> Missing Data Imputation
 
 ## 5) <a id='five'></a> Outliers
+
+### Outliers in time series data
+
+The outlier classification in time series data comes from [Blazquez-Garcia *et al.* paper](https://arxiv.org/pdf/2002.04236.pdf)
+
+<div align="center">
+<img src="https://github.com/razielar/feature_engineering_ts_forecasting/blob/main/img/outlier_clf.png" alt="logo"></img>
+</div>
