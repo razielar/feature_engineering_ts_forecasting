@@ -7,6 +7,7 @@ Repo from the course is placed [here](https://github.com/trainindata/feature-eng
 3. [Time series Decomposition](#three)
 4. [Missing Data Imputation](#four)
 5. [Outliers](#five)
+6. [Lag features](#six)
 
 ## 1) <a id='one'></a> Tabularizing Time Series 
 
@@ -73,4 +74,6 @@ The outlier classification in time series data comes from [Blazquez-Garcia *et a
 * **2)** Rolling median (median & MAD: Median Absolute Deviation)
 * **3)** LOWESS residuals
 * **4)** STL residuals
+
+## 6) <a id='six'></a> Lag features
 
