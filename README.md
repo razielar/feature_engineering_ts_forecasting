@@ -35,6 +35,8 @@ Repo from the course is placed [here](https://github.com/trainindata/feature-eng
 
 ### Multiplicative time series example
 
+Air passangers dataset increases as the trend increases, that is the **variance gets larger** as the **trend increases**.
+
 <div align="center">
 <img src="https://github.com/razielar/feature_engineering_ts_forecasting/blob/main/img/example_multiplicative_ts.png" alt="logo"></img>
 </div>
