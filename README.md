@@ -93,3 +93,4 @@ The outlier classification in time series data comes from [Blazquez-Garcia *et a
 
 ### Cross correlation function (CCF)
 
+Measure how correlated $y_t$ is with another variable at some lag: $x{_t-k}$.
