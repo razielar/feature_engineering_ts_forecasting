@@ -91,6 +91,9 @@ The outlier classification in time series data comes from [Blazquez-Garcia *et a
 
 ### Partial autocorrelation function (PACF)
 
+Measures how correlated a $yt$ is with itself at lags: $y{_t-k}$ **after removing** the **effect of intermediate lags**, by substracting the linear impact by a linear regression.
+In practice, we use `ywmle` (Yuke-Walker maximum likelihood estimation) instead of linear regression.
+
 ### Cross correlation function (CCF)
 
 Measure how correlated $y_t$ is with another variable at some lag: $x{_t-k}$.
