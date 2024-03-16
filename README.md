@@ -33,6 +33,12 @@ Repo from the course is placed [here](https://github.com/trainindata/feature-eng
 
 ## 3) <a id='three'></a> Time series Decomposition
 
+### Multiplicative time series example
+
+<div align="center">
+<img src="https://github.com/razielar/feature_engineering_ts_forecasting/blob/main/img/example_multiplicative_ts.png" alt="logo"></img>
+</div>
+
 ### MSTL Model
 
 <div align="center">
