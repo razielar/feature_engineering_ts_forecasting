@@ -85,6 +85,10 @@ The outlier classification in time series data comes from [Blazquez-Garcia *et a
 
 ## 6) <a id='six'></a> Lag features
 
+<div align="center">
+<img src="https://github.com/razielar/feature_engineering_ts_forecasting/blob/main/img/how_to_choose_lags.png" alt="logo"></img>
+</div>
+
 ### Autocorrelation function (ACF)
 
 ### Partial autocorrelation function (PACF)
