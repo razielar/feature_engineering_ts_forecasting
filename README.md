@@ -85,8 +85,6 @@ The outlier classification in time series data comes from [Blazquez-Garcia *et a
 
 ## 6) <a id='six'></a> Lag features
 
-### Lag plots
-
 ### Autocorrelation function (ACF)
 
 ### Partial autocorrelation function (PACF)
