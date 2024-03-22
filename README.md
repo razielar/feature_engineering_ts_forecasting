@@ -102,3 +102,10 @@ In practice, we use `ywmle` (Yuke-Walker maximum likelihood estimation) instead 
 Measure how correlated $y_t$ is with another variable at some lag: $x{_t-k}$.
 
 ## 7) <a id='seven'></a> Window features
+
+### Rolling Window features
+
+### Expanding Window features
+
+### Weighted Rolling Window features
+
