@@ -114,4 +114,7 @@ Measure how correlated $y_t$ is with another variable at some lag: $x{_t-k}$.
 
 ### Piecewise linear regression
 
+<div align="center">
+<img src="https://github.com/razielar/feature_engineering_ts_forecasting/blob/main/img/piecewise_linear_regression.png" alt="logo"></img>
+</div>
 
