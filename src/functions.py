@@ -47,3 +47,14 @@ def plot_ccf(y: pd.Series, x: pd.Series, lags: int) -> Axes:
     ax.xaxis.set_major_locator(MaxNLocator(integer=True))
     return ax
 
+def mad(x):
+    """Compute the median absolute deviation: MAD
+    Similar to std but using median, instead.
+    MAD = median(|xi-median(x|)
+    Args:
+        x: input value
+    Returns: mad
+    """
+    return np.median(np.abs(x - np.median(x)))
+
+
