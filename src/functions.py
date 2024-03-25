@@ -79,3 +79,29 @@ def weighted_std(x: np.array, weights: np.array) -> np.array:
     mean_w = weighted_mean(x, weights)
     var_w = (weights * (x - mean_w)**2).sum() / weights.sum()
     return np.sqrt(var_w)
+
+def exponentail_weights(alpha:float, window_size: int) -> np.array:
+    """Compute the exponential weights for any input alpha and window size.
+    Alpha value: the alpha value of Simple Exponential Smoothing is a good start (from statsmodels).
+    Args:
+        alpha (float): Alpha parameter (decay rate): 0 < alpha > 1
+        window_size (int): For example 12.
+    Returns:
+        np.array: Obtain exponentail weights.
+    """
+    # Initialise weights
+    weights = np.ones(window_size)
+    for ix in range(window_size):
+        weights[ix] = (1-alpha)**(window_size-1-ix)
+    return weights
+
+def exponential_weighted_mean(x: np.array) -> np.array:
+    """Exponential weighted mean.
+    Args:
+        x (np.array): input array
+    Returns:
+        np.array: Exponential weighted mean
+    """
+    weights = exponentail_weights(alpha=0.05, window_size=len(x))
+    return (weights * x).sum() / weights.sum()
+
