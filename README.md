@@ -108,7 +108,7 @@ Measure how correlated $y_t$ is with another variable at some lag: $x{_t-k}$.
 
 ### Expanding Window features
 
-### Weighted Rolling Window features
+### Weighted Expanding/Rolling Window features
 
 ## 8) <a id='eight'></a> Trend features
 
