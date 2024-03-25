@@ -58,4 +58,24 @@ def mad(x):
     """
     return np.median(np.abs(x - np.median(x)))
 
+def weighted_mean(x: np.array, weights: np.array) -> np.array:
+    """Weighted mean: define our own weighted mean function to pass to .apply(weighted_mean, args=(weights,))
+    Args:
+        x (np.array): input data
+        weights (np.array): weight array
+    Returns:
+        np.array: weighted mean
+    """
+    return (weights * x).sum() / weights.sum()
 
+def weighted_std(x: np.array, weights: np.array) -> np.array:
+    """Weighted standard deviation (std): define our own weighted std function to pass to .apply(weighted_std, args=(weights,))
+    Args:
+        x (np.array): input data
+        weights (np.array): weight array
+    Returns:
+        np.array: weighted std
+    """
+    mean_w = weighted_mean(x, weights)
+    var_w = (weights * (x - mean_w)**2).sum() / weights.sum()
+    return np.sqrt(var_w)
