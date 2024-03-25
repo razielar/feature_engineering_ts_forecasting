@@ -9,6 +9,7 @@ Repo from the course is placed [here](https://github.com/trainindata/feature-eng
 5. [Outliers](#five)
 6. [Lag features](#six)
 7. [Window features](#seven)
+8. [Trend features](#eight)
 
 ## 1) <a id='one'></a> Tabularizing Time Series 
 
@@ -108,4 +109,7 @@ Measure how correlated $y_t$ is with another variable at some lag: $x{_t-k}$.
 ### Expanding Window features
 
 ### Weighted Rolling Window features
+
+## 8) <a id='eight'></a> Trend features
+
 
