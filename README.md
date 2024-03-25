@@ -112,4 +112,6 @@ Measure how correlated $y_t$ is with another variable at some lag: $x{_t-k}$.
 
 ## 8) <a id='eight'></a> Trend features
 
+### Piecewise linear regression
+
 
