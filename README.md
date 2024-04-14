@@ -121,4 +121,8 @@ Measure how correlated $y_t$ is with another variable at some lag: $x{_t-k}$.
 
 ## 9) <a id='nine'></a> Seasonality Features
 
+* **What is seasonality?**: A pattern or effect that repeats with **a fixed frequency** (frequency = 1/period) over time.
+
+* **What is seasonality?**: A pattern or effect that repeats **without a fixed frequency** over time.
+
 
