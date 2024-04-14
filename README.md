@@ -10,6 +10,7 @@ Repo from the course is placed [here](https://github.com/trainindata/feature-eng
 6. [Lag features](#six)
 7. [Window features](#seven)
 8. [Trend features](#eight)
+9. [Seasonality Features](#nine)
 
 ## 1) <a id='one'></a> Tabularizing Time Series 
 
@@ -117,4 +118,7 @@ Measure how correlated $y_t$ is with another variable at some lag: $x{_t-k}$.
 <div align="center">
 <img src="https://github.com/razielar/feature_engineering_ts_forecasting/blob/main/img/piecewise_linear_regression.png" alt="logo"></img>
 </div>
+
+## 9) <a id='nine'></a> Seasonality Features
+
 
