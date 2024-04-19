@@ -154,7 +154,9 @@ $$ \sin(\text{feature}) = \sin\left(\ \text{feature} \cdot \frac{2\pi}{\max(\tex
 
 $$ \cos(\text{feature}) = \cos\left(\ \text{feature} \cdot \frac{2\pi}{\max(\text{feature})} \right) $$
 
-
+<div align="center">
+<img src="https://github.com/razielar/feature_engineering_ts_forecasting/blob/main/img/periodic_features.png" alt="logo"></img>
+</div>
 
 
 ## 11) <a id='eleven'></a> Categorical features
