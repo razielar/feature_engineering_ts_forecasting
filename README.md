@@ -127,14 +127,13 @@ Measure how correlated $y_t$ is with another variable at some lag: $x{_t-k}$.
 
 * **Cyclical patterns**: A pattern or effect that repeats **without a fixed frequency** over time.
 
-| Features to capture seasonality and cyclical patterns |
-|----------|----------|
+
 | **Seasonality**                                   | **Cyclical patterns**  |
-|---------------------------------------------------|------------------|
-| 1. Lag features                                   | 1. Lag features  |
-| 2. Calendar features (*aka* datetime features)    |                  |
-| 3. Seasonal dummies                               |                  |
-| 4. Fourier features                               |                  |
+|---------------------------------------------------|------------------------|
+| 1. Lag features                                   | 1. Lag features        |
+| 2. Calendar features (*aka* datetime features)    |                        |
+| 3. Seasonal dummies                               |                        |
+| 4. Fourier features                               |                        |
 
 
 
