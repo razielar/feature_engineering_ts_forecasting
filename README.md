@@ -130,7 +130,7 @@ Measure how correlated $y_t$ is with another variable at some lag: $x{_t-k}$.
 | 1. Lag features: `tree-based` & `linear` models                      | 1. Lag features        |
 | 2. Calendar features (*aka* datetime features): `tree-based` models  |                        |
 | 3. Seasonal dummies (*e.g.* is_january, etc.): `linear` models       |                        |
-| 4. Fourier features: `linear` models and high frequency data (*e.g.* hourly data with daily, monthly, and yearly seasonality)                                 |                        |
+| 4. Fourier features: `linear` models & **high frequency** data (*e.g.* hourly data with daily, monthly, and yearly seasonality)                                 |                        |
 
 **Seasonality**: A pattern or effect that repeats with **a fixed frequency** (frequency = 1/period) over time.  
 **Cyclical patterns**: A pattern or effect that repeats **without a fixed frequency** over time.
