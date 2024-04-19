@@ -152,7 +152,7 @@ We can solve this by **Trigonometric functions**: `sin` & `cos` transformations,
 
 $$ \sin(\text{feature}) = \sin\left(\frac{\text{feature} \cdot 2\pi}{\max(\text{feature})}\right) $$
 
-
+$$ \cos(\text{feature}) = \cos\left(\frac{\text{feature} \cdot 2\pi}{\max(\text{feature})}\right) $$
 
 
 
