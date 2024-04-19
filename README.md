@@ -150,7 +150,7 @@ Any periodic function $s(t)$ can be written as a **Fourier series** expansion:
 Periodic features repeat their values at regulard intervals. They reach a maximum value and start over again, *e.g.* December (12) is closer to January (1) than to July (7).   
 We can solve this by **Trigonometric functions**: `sin` & `cos` transformations, as seen below:
 
-\sin(\text{feature}) = \sin\left(\frac{\text{feature} \cdot 2\pi}{\max(\text{feature})}\right)
+\[ \sin(\text{feature}) = \sin\left(\frac{\text{feature} \cdot 2\pi}{\max(\text{feature})}\right) \]
 
 
 
