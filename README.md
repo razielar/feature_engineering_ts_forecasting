@@ -123,10 +123,6 @@ Measure how correlated $y_t$ is with another variable at some lag: $x{_t-k}$.
 
 ## 9) <a id='nine'></a> Seasonality Features
 
-**Seasonality**: A pattern or effect that repeats with **a fixed frequency** (frequency = 1/period) over time.   
-
-**Cyclical patterns**: A pattern or effect that repeats **without a fixed frequency** over time.
-
 ### Features to capture seasonality and cyclical patterns
 
 | **Seasonality**                                                      | **Cyclical patterns**  |
@@ -136,6 +132,8 @@ Measure how correlated $y_t$ is with another variable at some lag: $x{_t-k}$.
 | 3. Seasonal dummies (*e.g.* is_january, etc.) `linear` models        |                        |
 | 4. Fourier features `linear` models                                  |                        |
 
+**Seasonality**: A pattern or effect that repeats with **a fixed frequency** (frequency = 1/period) over time.  
+**Cyclical patterns**: A pattern or effect that repeats **without a fixed frequency** over time.
 
 
 ## 10) <a id='ten'></a> Date & Time features
