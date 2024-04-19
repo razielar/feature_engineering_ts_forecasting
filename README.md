@@ -143,7 +143,7 @@ Any periodic function $s(t)$ can be written as a **Fourier series** expansion:
 <img src="https://github.com/razielar/feature_engineering_ts_forecasting/blob/main/img/fourier_series.png" alt="logo"></img>
 </div>
 
-$$ \text{seasonality} = s(t) \approx A_0 + \sum_{n=1}^N  A_n \cdot \sin(2\pi \cdot n \cdot f \cdot t) + B_n \cdot \cos(2\pi \cdot n \cdot f \cdot t) $$
+$$ \text{seasonality} = s(t) \approx A_0 + \sum_{n=1}^N  A_n\sin(2\pi n  f  t) + B_n \cos(2\pi n  f  t) $$
 
 ## 10) <a id='ten'></a> Date & Time features
 
