@@ -12,6 +12,7 @@ Repo from the course is placed [here](https://github.com/trainindata/feature-eng
 8. [Trend features](#eight)
 9. [Seasonality Features](#nine)
 10. [Date & Time features](#ten)
+11. [Categorical features](#eleven)
 
 ## 1) <a id='one'></a> Tabularizing Time Series 
 
@@ -128,5 +129,6 @@ Measure how correlated $y_t$ is with another variable at some lag: $x{_t-k}$.
 
 ## 10) <a id='ten'></a> Date & Time features
 
+## 11) <a id='eleven'></a> Categorical features
 
 
