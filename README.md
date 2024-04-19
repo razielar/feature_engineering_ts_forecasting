@@ -137,9 +137,11 @@ Measure how correlated $y_t$ is with another variable at some lag: $x{_t-k}$.
 
 ### Fourier series
 
-Any periodic function $s(t)$ can be writeen as a **Fourier series** expansion:
+Any periodic function $s(t)$ can be written as a **Fourier series** expansion:
 
-
+<div align="center">
+<img src="https://github.com/razielar/feature_engineering_ts_forecasting/blob/main/img/fourier_series.png" alt="logo"></img>
+</div>
 
 ## 10) <a id='ten'></a> Date & Time features
 
