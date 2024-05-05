@@ -165,4 +165,6 @@ $$ \cos(\text{feature}) = \cos\left(\ \text{feature} \cdot \frac{2\pi}{\max(\tex
 
 ## 11) <a id='eleven'></a> Categorical features
 
-
+<div align="center">
+<img src="https://github.com/razielar/feature_engineering_ts_forecasting/blob/main/img/categorical_features.png" alt="logo"></img>
+</div>
